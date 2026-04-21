@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Quick Signature Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quick Signature Personal Use'), url('https://fonts.cdnfonts.com/s/39756/Quicksignaturepersonaluse-29DK.woff') format('woff');
+}
+
+
