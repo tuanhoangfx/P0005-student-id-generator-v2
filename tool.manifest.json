@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "code": "P0015",
+  "id": "student-id-generator-v2",
+  "aliases": [
+    "P0015",
+    "Student ID V2"
+  ],
+  "name": "Student ID Generator V2",
+  "type": "Web",
+  "owner": "Tool",
+  "status": "Needs review",
+  "summary": "Static student ID card generator with canvas rendering and barcode (refactored from P0016).",
+  "stack": [
+    "HTML",
+    "Canvas",
+    "JavaScript"
+  ],
+  "commands": {
+    "serve": "npx serve ."
+  },
+  "docs": {
+    "readme": "README.md"
+  },
+  "github": {
+    "repo": "tuanhoangfx/P0005-student-id-generator-v2",
+    "branch": "main",
+    "manifestPath": "tool.manifest.json"
+  },
+  "release": {
+    "version": "0.0.0",
+    "readiness": [
+      "static",
+      "docs"
+    ]
+  },
+  "health": {
+    "status": "Needs review",
+    "note": "Serve via npx serve or P0018 WebApps static path."
+  },
+  "nextActions": [
+    "Add package.json if npm scripts are preferred over npx serve.",
+    "Expose via P0018 with projectCode P0015."
+  ],
+  "manifestUpdatedAt": "2026-05-21T08:00:00.000Z"
+}
