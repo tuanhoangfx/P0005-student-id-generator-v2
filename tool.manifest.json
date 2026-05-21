@@ -10,7 +10,7 @@
   "type": "Web",
   "owner": "Tool",
   "status": "Needs review",
-  "summary": "Static student ID card generator with canvas rendering and barcode (refactored from P0016).",
+  "summary": "Static student ID card generator with canvas rendering and barcode.",
   "stack": [
     "HTML",
     "Canvas",
@@ -46,11 +46,10 @@
   },
   "health": {
     "status": "Needs review",
-    "note": "Serve via npx serve or P0018 WebApps static path."
+    "note": "Serve via npx serve or Vercel static deploy."
   },
   "nextActions": [
-    "Add package.json if npm scripts are preferred over npx serve.",
-    "Expose via P0018 with projectCode P0015."
+    "Add package.json if npm scripts are preferred over npx serve."
   ],
   "manifestUpdatedAt": "2026-05-21T08:00:00.000Z"
 }
