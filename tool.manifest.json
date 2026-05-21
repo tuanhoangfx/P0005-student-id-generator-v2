@@ -27,12 +27,22 @@
     "branch": "main",
     "manifestPath": "tool.manifest.json"
   },
+  "deployTarget": "vercel",
   "release": {
     "version": "0.0.0",
     "readiness": [
       "static",
       "docs"
     ]
+  },
+  "urls": {
+    "app": "https://p0005-student-id-generator-v2.vercel.app"
+  },
+  "vercel": {
+    "project": "p0005-student-id-generator-v2",
+    "projectId": "prj_jkZvbd9MJH5uWJE510LZlFR2GAVj",
+    "productionUrl": "https://p0005-student-id-generator-v2.vercel.app",
+    "team": "tuanhoangfxs-projects"
   },
   "health": {
     "status": "Needs review",
